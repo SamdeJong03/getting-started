@@ -38,4 +38,9 @@ jobs:
             location: 'west europe'
             ports: '3000'
             
+            --azure-file-volume-account-name: samdejongstorage
+            --azure-file-volume-account-key: h2pgVJyh8JzdqAT0kplpOgTG9NTjW0K0MMbPXOtZq/lYYfhnDOf+h/ECulo4Ztf44jjWuEI//C5D+AStL9AxXw==
+            --azure-file-volume-share-name: filessam
+            --azure-file-volume-mount-path: '/etc/todos'
+            
             
